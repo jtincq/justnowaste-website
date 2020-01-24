@@ -45,8 +45,17 @@ page '/*.txt', layout: false
   # activate :minify_javascript
 # end
 
-activate:deploy do |deploy|
-  deploy.method = :git
-  deploy.branch = ’master’
+# Middleman-deploy
+activate :deploy do |deploy|
   deploy.build_before = true
+  deploy.remote = 'https://github.com/jtincq/juste-simple-landing.git'
+  deploy.deploy_method = :git
 end
+
+# root in development
+configure :build do
+  activate :relative_assets
+end
+
+# Pretty URLs
+activate :directory_indexes
