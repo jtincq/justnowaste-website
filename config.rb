@@ -48,7 +48,7 @@ page '/*.txt', layout: false
 # Middleman-deploy
 activate :deploy do |deploy|
   deploy.build_before = true
-  deploy.remote = 'https://github.com/jtincq/juste-simple-landing.git'
+  deploy.remote = 'https://github.com/jtincq/justnowaste-website.git'
   deploy.deploy_method = :git
 end
 
