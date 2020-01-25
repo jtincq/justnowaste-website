@@ -1,0 +1,14 @@
+env:
+  description: "Protection de l'environnement et préservation des ressources"
+
+image:
+  description: "Image de la manifestation"
+
+satisfaction:
+  description: "Satisfaction des visiteurs et des collaborateurs"
+
+propre:
+  description: "Propreté du site"
+
+economies:
+  description: "Economies financières (achat de matériel, nétoyage et traitement des déchets)"
