@@ -1,24 +1,70 @@
+@import "components/banner.scss";
+@import "components/card-action.scss";
+@import "components/card-category.scss";
+@import "components/button.scss";
+@import "components/footer.scss";
+
+/* Fonts */
+@import url("http://fonts.googleapis.com/css?family=Open+Sans:400,300,700");
+@import url("https://use.fontawesome.com/releases/v5.0.10/css/all.css");
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,400i,700,700i&display=swap');
+
+
+/* --- Website main CSS --- */
 body {
-  background-color: white;
-  color: #333;
-  font-family: -apple-system, BlinkMacSystemFont, "Avenir Next", "Avenir",
-    "Segoe UI", "Lucida Grande", "Helvetica Neue", "Helvetica", "Fira Sans",
-    "Roboto", "Noto", "Droid Sans", "Cantarell", "Oxygen", "Ubuntu",
-    "Franklin Gothic Medium", "Century Gothic", "Liberation Sans", sans-serif;
-  padding: 18vh 1rem;
+  background-color: #F7F7F7;
+  color: #000A19;
+  margin: 0;
+  font-family: "Open Sans", "Helvetica", "sans-serif";
+}
+.text-center {
   text-align: center;
 }
 
-a {
-  color: rgba(#000, 0.7);
-
-  &:focus,
-  &:hover {
-    color: rgba(#000, 0.6);
-  }
+.main-container {
+  width: 900px;
+  margin: 0 auto;
+  position: relative;
 }
 
-.middleman-logo {
-  margin-bottom: 1rem;
-  width: 10rem;
+h1 {
+  font-size: 40px;
+}
+
+h2 {
+  font-size: 30px;
+}
+
+h3 {
+  font-size: 25px;
+}
+
+p {
+  font-size: 20px;
+}
+
+#justnowaste {
+  font-family: "Monserrat", "Open Sans", "Helvetica", "sans-serif";;
+  font-weight: bold;
+  font-style: italic;
+}
+
+/* --- Responsive design --- */
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .main-container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .main-container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .main-container {
+    width: 300px;
+  }
 }
