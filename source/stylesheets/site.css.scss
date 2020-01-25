@@ -1,7 +1,7 @@
 /* --- Fonts --- */
-@import url("http://fonts.googleapis.com/css?family=Open+Sans:400,300,700");
-@import url('https://fonts.googleapis.com/css?family=Montserrat:400,400i,700,700i&display=swap');
-@import url("https://use.fontawesome.com/releases/v5.0.10/css/all.css");
+@import url('//fonts.googleapis.com/css?family=Open+Sans:400,300,700,700i&display=swap');
+@import url('//fonts.googleapis.com/css?family=Montserrat:400,400i,700,700i&display=swap');
+@import url('https://use.fontawesome.com/releases/v5.0.10/css/all.css');
 
 /* --- Components --- */
 @import "components/banner.scss";
@@ -16,7 +16,7 @@ body {
   background-color: #F7F7F7;
   color: #000A19;
   margin: 0;
-  font-family: "Open Sans", "Helvetica", "sans-serif";
+  font-family: "Monserrat", "Open Sans", "Helvetica", "sans-serif";
 }
 .text-center {
   text-align: center;
