@@ -1,14 +1,15 @@
+/* --- Components --- */
 @import "components/banner.scss";
 @import "components/card-action.scss";
 @import "components/card-category.scss";
 @import "components/button.scss";
 @import "components/footer.scss";
+@import "components/navbar.scss";
 
-/* Fonts */
+/* --- Fonts --- */
 @import url("http://fonts.googleapis.com/css?family=Open+Sans:400,300,700");
 @import url("https://use.fontawesome.com/releases/v5.0.10/css/all.css");
 @import url('https://fonts.googleapis.com/css?family=Montserrat:400,400i,700,700i&display=swap');
-
 
 /* --- Website main CSS --- */
 body {
