@@ -59,3 +59,10 @@ end
 
 # Pretty URLs
 activate :directory_indexes
+
+# To run the site in a subdirectory
+# (under the GitHub convention of: http://agentem.github.io/new-personal-site/)
+configure :build do
+  set :relative_links, true
+end
+
