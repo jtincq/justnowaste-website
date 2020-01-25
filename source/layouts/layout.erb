@@ -6,10 +6,17 @@
     <meta name="viewport"
           content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!-- Use the title from a page's frontmatter if it has one -->
-    <title><%= current_page.data.title || "Just No Waste" %></title>
+    <title><%= current_page.data.title || data.settings.site.title %></title>
+    <!-- Define a description of your web page -->
+    <meta name="description" content="#{current_page.data.description}">
+    <!-- Define keywords for SEO -->
+    <meta name="keywords" content="#{data.settings.site.keywords}">
+    <!-- Define the author of a page -->
+    <meta name="author" content="#{data.settings.author.name}">
     <%= stylesheet_link_tag "site" %>
     <%= javascript_include_tag "site" %>
   </head>
+
   <body>
     <%= yield %>
   </body>
