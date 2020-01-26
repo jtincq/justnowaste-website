@@ -11,6 +11,9 @@
 @import "components/footer.scss";
 @import "components/navbar.scss";
 
+/* --- External Libraries --- */
+@import "bootstrap";
+
 /* --- Website main CSS --- */
 body {
   background-color: #F7F7F7;
@@ -45,7 +48,7 @@ p {
 }
 
 #justnowaste {
-  font-family: "Monserrat", "Open Sans", "Helvetica", "sans-serif";;
+  font-family: "Monserrat", "Open Sans", "Helvetica", "sans-serif";
   font-weight: bold;
   font-style: italic;
 }
