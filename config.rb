@@ -63,6 +63,3 @@ end
 
 # Pretty URLs
 activate :directory_indexes
-
-
-

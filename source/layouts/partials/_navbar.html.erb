@@ -10,19 +10,25 @@
 
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav mr-auto">
-        <li class="nav-item active">
-          <%= link_to "A propos", "/about.html", class: "nav-link" %>
+        <!-- Methode ruby qui ajoute la classe active si la page concernée est active -->
+        <li class="nav-item <%=current_page.data.id == 'about' ? 'active' : ''%>">
+          <%= link_to "A PROPOS", "/about.html", class: "nav-link" %>
         </li>
-        <li class="nav-item">
-          <%= link_to "Prestations", "/prestations.html", class: "nav-link" %>
+        <li class="nav-item <%=current_page.data.id == 'prestations' ? 'active' : ''%>">
+          <%= link_to "PRESTATIONS", "/prestations.html", class: "nav-link" %>
         </li>
-        <li class="nav-item">
-          <%= link_to "Ressources", "/ressources.html", class: "nav-link" %>
+        <li class="nav-item <%=current_page.data.id == 'ressources' ? 'active' : ''%>">
+          <%= link_to "RESSOURCES", "/ressources.html", class: "nav-link" %>
         </li>
-        <li class="nav-item">
-          <%= link_to "Contact", "/contact.html", class: "nav-link" %>
+        <li class="nav-item <%=current_page.data.id == 'blog' ? 'active' : ''%>">
+          <%= link_to "BLOG", "#", class: "nav-link" %>
+        </li>
+        <li class="nav-item <%=current_page.data.id == 'contact' ? 'active' : ''%>">
+          <%= link_to "CONTACT", "/contact.html", class: "nav-link" %>
         </li>
       </ul>
     </div>
   </div>
 </div>
+
+
