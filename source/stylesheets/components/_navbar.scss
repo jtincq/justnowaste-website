@@ -8,7 +8,11 @@
 }
 
 .navbar-jnw .navbar-brand img {
-  width: 50px;
+  width: 80px;
+}
+
+.navbar-jnw .active-jnw {
+  border-bottom: 2px solid $black;
 }
 
 .background-white {
