@@ -17,7 +17,7 @@
 
 /* --- Website main CSS --- */
 body {
-  background-color: $white;
+  background-color: $light-gray;
   color: $black;
   margin: 0;
   font-family: $body-font;
@@ -27,8 +27,10 @@ body {
 }
 
 .main-container {
-  width: 900px;
+  width: 100%;
+  max-width: 1200px;
   margin: 0 auto;
+  padding: 10 20px;
   position: relative;
 }
 
