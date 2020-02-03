@@ -10,6 +10,7 @@
 @import "components/button.scss";
 @import "components/footer.scss";
 @import "components/navbar.scss";
+@import "components/title.scss";
 
 /* --- External Libraries --- */
 @import "bootstrap";
@@ -35,6 +36,7 @@ body {
 
 h1, h2, h3, h4 {
   font-family: $headers-font;
+  font-weight: bolder;
 }
 
 h1 {
@@ -53,15 +55,7 @@ p {
   font-size: 20px;
 }
 
-#justnowaste {
-  font-family: $headers-font;
-  font-weight: bold;
-  font-style: italic;
-}
-
 /* --- Responsive design --- */
-
-
 @media (max-width: 960px) {
   /* For a screen < 960px, this CSS will be read */
   .main-container {
