@@ -26,6 +26,11 @@ body {
   text-align: center;
 }
 
+//Pour laisser un espace avant un paragraphe (une div)
+.space-top {
+  padding-top: 15px;
+}
+
 .main-container {
   width: 100%;
   max-width: 1200px;

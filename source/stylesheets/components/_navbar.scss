@@ -12,9 +12,13 @@
 }
 
 .navbar-jnw .active-jnw {
-  border-bottom: 2px solid $black;
+  border-bottom: 0.25em solid $black;
 }
 
-.background-white {
-  background-color : white
+/* --- Responsive design --- */
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .navbar-jnw .active-jnw {
+    border-bottom: none;
+  }
 }
