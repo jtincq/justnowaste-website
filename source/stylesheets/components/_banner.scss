@@ -1,15 +1,17 @@
 .banner {
   background-size: cover;
   background-position: center;
-  height: 450px;
-  padding: 20px;
+  min-height: 400px;
+  padding: 5px;
 }
 
-.banner .banner-content {
-  padding: 40px;
+.banner .banner-content-center {
+  text-align: center;
+  padding: 60px;
+  max-width: 900px;
 }
 
-.banner .text-left {
+.banner .center {
   text-align: left;
   width: 50vw;
 }
@@ -19,12 +21,7 @@
   text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
 }
 
-.banner h1 {
-  font-size: 40px;
-  font-weight: bold;
-}
-
 .banner p {
-  font-size: 25px;
   opacity: .9;
+  font-size: 25px;
 }
