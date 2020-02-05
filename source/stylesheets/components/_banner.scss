@@ -11,9 +11,10 @@
   max-width: 900px;
 }
 
-.banner .center {
-  text-align: left;
-  width: 50vw;
+/* --- Pour mettre la div de texte à gaiche - A retravailler --- */
+.banner .banner-content-left {
+  max-width: 400px;
+  background: rgba(0,0,0,0.6);
 }
 
 .banner h1, p {

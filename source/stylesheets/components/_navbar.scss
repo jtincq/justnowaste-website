@@ -4,6 +4,7 @@
 
 .navbar-jnw {
   justify-content: space-between !important;
+  font-weight: bolder;
 }
 
 .navbar-jnw .navbar-collapse {
@@ -15,7 +16,7 @@
 }
 
 .navbar-jnw .active-jnw {
-  border-bottom: 0.25em solid $black;
+  border-bottom: 10px solid $yellow;
 }
 
 /* --- Responsive design --- */
