@@ -5,18 +5,6 @@
   padding: 5px;
 }
 
-.banner .banner-content-center {
-  text-align: center;
-  padding: 60px;
-  max-width: 900px;
-}
-
-/* --- Pour mettre la div de texte à gaiche - A retravailler --- */
-.banner .banner-content-left {
-  max-width: 400px;
-  background: rgba(0,0,0,0.6);
-}
-
 .banner h1, p {
   color: white;
   text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
@@ -25,4 +13,33 @@
 .banner p {
   opacity: .9;
   font-size: 25px;
+}
+
+.banner .main-container {
+  display: flex;
+  min-height: 400px;
+}
+
+/* --- Banner layout avec le text central --- */
+.banner .banner-content-center {
+  justify-content: center;
+}
+
+.content-center{
+  padding: 60px;
+  max-width: 900px;
+  text-align: center;
+}
+
+/* --- Banner layout avec un bloc de texte à gauche --- */
+.banner .banner-content-left {
+  justify-content: flex-start;
+}
+
+.content-left {
+  align-self: center;
+  padding : 20px;
+  max-width: 400px;
+  background: rgba(0,0,0,0.5);
+  border-radius: 1px;
 }
