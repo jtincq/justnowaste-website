@@ -43,3 +43,14 @@
   background: rgba(0,0,0,0.5);
   border-radius: 1px;
 }
+
+/* --- Responsive design --- */
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .banner {
+    min-height: 100px;
+  }
+  .banner .main-container {
+    min-height: 100px;
+  }
+}
