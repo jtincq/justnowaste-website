@@ -1,0 +1,11 @@
+.frame {
+  transform: rotate(8deg);
+  background: $blue;
+  display: table-cell;
+  padding: 2px;
+}
+
+.img-framed {
+  transform: rotate(-8deg);
+  max-width: 400px;
+}
