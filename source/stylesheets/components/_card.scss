@@ -78,8 +78,11 @@
     max-width: 400px;
   }
   .card-hori {
-    display: block;
+    flex-direction: column;
     margin-top: 30px;
+  }
+  .card-hori-right {
+    flex-direction: column-reverse;
   }
   .card-hori img {
     height: 200px;
