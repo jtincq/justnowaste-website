@@ -1,0 +1,69 @@
+/* --- Card call to action --- */
+.card-call {
+  margin: auto;
+  max-width: 500px;
+  background: white;
+  padding: 20px;
+  padding-bottom: 40px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  position: relative;
+  top: -80px;
+}
+
+.card-call h1, .card-call h2 {
+    margin-bottom: 2rem;
+}
+
+/* --- Card vertical --- */
+.card-verti {
+  // overflow: hidden;
+  // background: white;
+  // box-shadow: 0 0 15px rgba(0,0,0,0.2);
+}
+
+.card-verti .card-verti-pic {
+  height: 200px;
+  width: 100%;
+  object-fit: cover;
+}
+
+.card-verti h2, .card-verti p {
+  margin: 0;
+}
+
+.card-verti .card-verti-infos {
+  padding: 16px;
+}
+
+/* --- cards grid --- */
+.cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 30px;
+}
+
+/* --- Responsive design --- */
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .cards {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+ }
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .card-call {
+    max-width: 400px;
+  }
+  .cards {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .card-call {
+    max-width: 320px;
+  }
+  .cards {
+    grid-template-columns: 1fr;
+  }
+}
