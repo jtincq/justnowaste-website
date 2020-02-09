@@ -19,16 +19,17 @@ banner_gradient: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.3)),
   <div class="cards cards-small">
     <% data.avantages.each do |file, avantage| %>
       <div class="card-verti text-center">
-        <div class="icon">
+        <div class="picto">
           <%= avantage.icon %>
         </div>
         <div class="card-verti-infos">
           <div>
-            <h3><%= avantage.description %></h3>
+            <p><%= avantage.description %></p>
           </div>
         </div>
       </div>
     <% end %>
+  </div>
 </div>
 
 <div class="ruban ruban-yellow-oblic-left">
