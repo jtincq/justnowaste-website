@@ -1,15 +1,27 @@
-.btn-yellow {
-    margin-top: 15px;
-    background: $dark-yellow;
+.btn-yellow, .btn-blue, .btn-dark {
+  margin-top: 15px;
+  color: white;
+  padding: 10px 15px 10px 15px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 20px;
+  &:hover {
     color: white;
-    padding: 10px 15px 10px 15px;
     text-decoration: none;
-    text-transform: uppercase;
-    font-weight: bold;
-    font-size: 20px;
-    &:hover {
-      background: $yellow;
-      color: white;
-      text-decoration: none;
-    }
+  }
+}
+
+.btn-yellow {
+  background: $dark-yellow;
+  &:hover {
+    background: $yellow;
+  }
+}
+
+.btn-blue {
+  background: $blue;
+  &:hover {
+    background: $turquoise;
+  }
 }
