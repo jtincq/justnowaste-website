@@ -10,7 +10,7 @@
 @import "components/navbar.scss";
 @import "components/title.scss";
 @import "components/card.scss";
-@import "components/picture.scss";
+@import "components/frame.scss";
 
 
 /* --- External Libraries --- */
@@ -58,7 +58,8 @@ h3 {
 }
 
 p {
-  font-size: 20px;
+  font-size: 18
+  px;
 }
 
 /* --- Responsive design --- */

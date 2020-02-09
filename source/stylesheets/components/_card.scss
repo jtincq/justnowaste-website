@@ -14,31 +14,54 @@
     margin-bottom: 2rem;
 }
 
-/* --- Card vertical --- */
-.card-verti {
+/* --- Card vertical / horizontale (carracteristiques communes aux deux cartes) --- */
+.card-verti, .card-hori {
   // overflow: hidden;
   // background: white;
   // box-shadow: 0 0 15px rgba(0,0,0,0.2);
 }
 
-.card-verti .card-verti-pic {
-  height: 200px;
-  width: 100%;
+.card-verti .card-verti-pic, .card-hori .card-hori-pic {
   object-fit: cover;
 }
 
-.card-verti h2, .card-verti p {
+.card-verti h2, .card-verti p, .card-hori h2, .card-hori p {
   margin: 0;
+}
+
+/* --- Card verticale --- */
+.card-verti img {
+  height: 200px;
+  width: 100%;
 }
 
 .card-verti .card-verti-infos {
   padding: 16px;
 }
 
+/* --- Card horizontale --- */
+.card-hori {
+  display: flex;
+  align-items: center;
+}
+
+.card-hori .img-large {
+  width: 50vw;
+  max-width: 600px;
+}
+
+.card-hori img {
+  width: 200px;
+}
+
+.card-hori .card-hori-infos {
+  padding: 30px;
+}
+
 /* --- cards grid --- */
 .cards {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 30px;
 }
 
@@ -53,6 +76,17 @@
   /* For a screen < 720px, this CSS will be read */
   .card-call {
     max-width: 400px;
+  }
+  .card-hori {
+    display: block;
+    margin-top: 30px;
+  }
+  .card-hori img {
+    height: 200px;
+    width: 100% !important;
+  }
+  .card-hori .card-hori-infos {
+    padding: 16px;
   }
   .cards {
     grid-template-columns: 1fr 1fr;
