@@ -5,12 +5,11 @@
 
 /* --- Components --- */
 @import "components/banner.scss";
-@import "components/card-action.scss";
-@import "components/card-category.scss";
 @import "components/button.scss";
 @import "components/footer.scss";
 @import "components/navbar.scss";
 @import "components/title.scss";
+@import "components/card-call.scss";
 
 /* --- External Libraries --- */
 @import "bootstrap";
@@ -41,6 +40,7 @@ body {
 h1, h2, h3, h4 {
   font-family: $headers-font;
   font-weight: bolder;
+  margin-bottom: 1rem;
 }
 
 h1 {

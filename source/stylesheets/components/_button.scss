@@ -1,13 +1,15 @@
-.btn-action {
-    background: #FFAB03;
-    color: #fff;
+.btn-yellow {
+    margin-top: 15px;
+    background: $dark-yellow;
+    color: white;
     padding: 10px 15px 10px 15px;
     text-decoration: none;
     text-transform: uppercase;
     font-weight: bold;
     font-size: 20px;
     &:hover {
-      background: #FCDE5B;
-      color: #fff;
+      background: $yellow;
+      color: white;
+      text-decoration: none;
     }
 }
