@@ -11,6 +11,8 @@
 @import "components/title.scss";
 @import "components/card.scss";
 @import "components/frame.scss";
+@import "components/ruban.scss";
+@import "components/icon.scss";
 
 
 /* --- External Libraries --- */
@@ -27,9 +29,9 @@ body {
   text-align: center;
 }
 
-//Pour laisser un espace avant un paragraphe (une div)
-.space-top {
-  padding-top: 15px;
+//Pour laisser un espace après une div ou un titre
+.padding-bottom {
+  padding-bottom: 30px;
 }
 
 .main-container {
@@ -46,7 +48,7 @@ h1, h2, h3, h4 {
 }
 
 h1 {
-  font-size: 40px;
+  font-size: 35px;
 }
 
 h2 {

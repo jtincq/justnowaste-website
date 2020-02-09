@@ -14,52 +14,35 @@ banner_gradient: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.3)),
   </div>
 </div>
 
-<div class="main-container cards">
-  <div class="card-verti">
-    <div class="frame-blue">
-      <%= image_tag 'https://raw.githubusercontent.com/lewagon/fullstack-images/master/uikit/greece.jpg', class: 'card-verti-pic img-framed' %>
-    </div>
-    <div class="card-verti-infos">
-      <div>
-        <h2>Title here</h2>
-        <p>Short description here!</p>
+<div class="main-container">
+  <h2 class="padding-bottom">Pourquoi réduire les déchets de votre manifestation ?</h2>
+  <div class="cards cards-small">
+    <% data.avantages.each do |file, avantage| %>
+      <div class="card-verti text-center">
+        <div class="icon">
+          <%= avantage.icon %>
+        </div>
+        <div class="card-verti-infos">
+          <div>
+            <h3><%= avantage.description %></h3>
+          </div>
+        </div>
       </div>
-    </div>
-  </div>
-  <div class="card-verti">
-    <div class="frame-blue">
-      <%= image_tag 'https://raw.githubusercontent.com/lewagon/fullstack-images/master/uikit/greece.jpg', class: 'card-verti-pic img-framed' %>
-    </div>
-    <div class="card-verti-infos">
-      <div>
-        <h2>Title here</h2>
-        <p>Short description here!</p>
-      </div>
-    </div>
-  </div>
-  <div class="card-verti">
-    <div class="frame-blue">
-      <%= image_tag 'https://raw.githubusercontent.com/lewagon/fullstack-images/master/uikit/greece.jpg', class: 'card-verti-pic img-framed' %>
-    </div>
-    <div class="card-verti-infos">
-      <div>
-        <h2>Title here</h2>
-        <p>Short description here!</p>
-      </div>
-    </div>
-  </div>
+    <% end %>
 </div>
 
-<div class="main-container">
-  <div class="card-hori card-hori-right">
-    <div class="card-hori-infos">
+<div class="ruban ruban-yellow-oblic-left">
+  <div class="main-container">
+    <div class="card-hori">
       <div>
-        <h2>Title here</h2>
-        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+        <%= image_tag 'https://raw.githubusercontent.com/lewagon/fullstack-images/master/uikit/greece.jpg', class: 'card-hori-pic img-large' %>
       </div>
-    </div>
-    <div class="frame-blue">
-      <%= image_tag 'https://raw.githubusercontent.com/lewagon/fullstack-images/master/uikit/greece.jpg', class: 'card-hori-pic img-framed img-large' %>
+      <div class="card-hori-infos">
+        <div>
+          <h2>Title here</h2>
+          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+        </div>
+      </div>
     </div>
   </div>
 </div>

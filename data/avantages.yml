@@ -1,14 +1,20 @@
 env:
-  description: "Protection de l'environnement et préservation des ressources"
+  description: Protection de l'environnement
+  icon: <i class="fas fa-broom"></i>
 
 image:
-  description: "Image de la manifestation"
+  description: Image de la manifestation
+  icon: <i class="fas fa-broom"></i>
 
 satisfaction:
-  description: "Satisfaction des visiteurs et des collaborateurs"
+  description: Satisfaction des visiteurs et des collaborateurs
+  icon: <i class="fas fa-broom"></i>
 
-propre:
+proprete:
   description: "Propreté du site"
+  icon: <i class="fas fa-broom"></i>
 
 economies:
   description: "Economies financières (achat de matériel, nétoyage et traitement des déchets)"
+  icon: <i class="fas fa-broom"></i>
+

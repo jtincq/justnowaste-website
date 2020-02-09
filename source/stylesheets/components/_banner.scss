@@ -1,13 +1,17 @@
 .banner {
   background-size: cover;
   background-position: center;
-  min-height: 400px;
+  min-height: 350px;
   padding: 5px;
 }
 
 .banner h1, .banner p {
   color: white;
   text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+}
+
+.banner h1 {
+  font-size: 45px;
 }
 
 .banner p {
@@ -17,7 +21,7 @@
 
 .banner .main-container {
   display: flex;
-  min-height: 400px;
+  min-height: 350px;
 }
 
 /* --- Banner layout avec le text central --- */
@@ -41,7 +45,7 @@
   align-self: center;
   padding : 20px;
   max-width: 600px;
-  background: rgba(0,0,0,0.5);
+  background: rgba(0,0,0,0.2);
   border-radius: 1px;
 }
 

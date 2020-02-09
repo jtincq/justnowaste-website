@@ -11,7 +11,7 @@
 }
 
 .card-call h1, .card-call h2 {
-    margin-bottom: 2rem;
+  margin-bottom: 2rem;
 }
 
 /* --- Card vertical / horizontale (carracteristiques communes aux deux cartes) --- */
@@ -63,6 +63,10 @@
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 30px;
+}
+
+.cards-small {
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
 }
 
 /* --- Responsive design --- */
