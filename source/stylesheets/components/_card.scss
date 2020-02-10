@@ -21,10 +21,6 @@
   // box-shadow: 0 0 15px rgba(0,0,0,0.2);
 }
 
-.card-verti .card-verti-pic, .card-hori .card-hori-pic {
-  object-fit: cover;
-}
-
 .card-verti h2, .card-verti p, .card-hori h2, .card-hori p {
   margin: 0;
 }
@@ -38,6 +34,7 @@
 .card-verti img {
   height: 200px;
   width: 100%;
+  object-fit: cover;
 }
 
 .card-verti .card-verti-infos {
@@ -58,6 +55,7 @@
 
 .card-hori img {
   width: 200px;
+  object-fit: cover;
 }
 
 .card-hori .card-hori-infos {
@@ -94,7 +92,7 @@
   .card-hori-right {
     flex-direction: column-reverse;
   }
-  .card-hori img {
+  .card-hori img, .card-hori .img-large {
     height: 200px;
     width: 100% !important;
   }

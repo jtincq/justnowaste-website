@@ -39,7 +39,7 @@ banner_gradient: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.3)),
     <% data.piliers.each do |f, pilier| %>
       <div class="card-hori background-white">
         <div>
-          <%= image_tag pilier.picture, :class => 'card-hori-pic' %>
+          <%= image_tag pilier.picture %>
         </div>
         <div class="card-hori-infos">
           <h3><%= pilier.titre %></h3>
@@ -47,6 +47,24 @@ banner_gradient: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.3)),
         </div>
       </div>
     <% end %>
+  </div>
+</div>
+
+<div class="main-container">
+  <div class="card-hori">
+    <div class="card-hori-infos">
+      <h3>L'offre Just No Waste</h3>
+      <p>Just No Waste vous accompagne dans la définition et la mise en place d'une démarche de réduction des déchets adaptée à vos besoins et aux spécificités de votre ou vos évènement.s :</p>
+      <ul>
+        <li><p><i class="fas fa-caret-right bullet"></i>Diagnostic déchets</p></li>
+        <li><p><i class="fas fa-caret-right bullet"></i>Plan d'actions</p></li>
+        <li><p><i class="fas fa-caret-right bullet"></i>Mise en oeuvre</p></li>
+        <li><p><i class="fas fa-caret-right bullet"></i>Formations</p></li>
+      </ul>
+    </div>
+    <div class="img-large">
+      <%= image_tag "pictures/diagnostic-jnw.jpg", :class => 'img-large' %>
+    </div>
   </div>
 </div>
 
