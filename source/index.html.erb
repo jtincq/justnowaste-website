@@ -14,10 +14,10 @@ banner_gradient: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.3)),
   </div>
 </div>
 
-<div class="main-container">
-  <h2 class="padding-bottom">Pourquoi réduire les déchets de votre manifestation ?</h2>
+<div class="main-container padding-bottom">
+  <h2 class="padding-bottom">5 bonnes raisons de réduire les déchets de votre manifestation</h2>
   <div class="cards cards-small">
-    <% data.avantages.each do |file, avantage| %>
+    <% data.avantages.each do |f, avantage| %>
       <div class="card-verti text-center">
         <div class="picto">
           <%= avantage.icon %>
@@ -35,17 +35,18 @@ banner_gradient: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.3)),
 
 <div class="ruban ruban-yellow-oblic-left">
   <div class="main-container">
-    <div class="card-hori">
-      <div>
-        <%= image_tag 'https://raw.githubusercontent.com/lewagon/fullstack-images/master/uikit/greece.jpg', class: 'card-hori-pic img-large' %>
-      </div>
-      <div class="card-hori-infos">
+    <h2 class="padding-bottom">Les 3 piliers de la démarche No Waste</h2>
+    <% data.piliers.each do |f, pilier| %>
+      <div class="card-hori background-white">
         <div>
-          <h2>Title here</h2>
-          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+          <%= image_tag pilier.picture, :class => 'card-hori-pic' %>
+        </div>
+        <div class="card-hori-infos">
+          <h3><%= pilier.titre %></h3>
+          <p><%= pilier.description %></p>
         </div>
       </div>
-    </div>
+    <% end %>
   </div>
 </div>
 

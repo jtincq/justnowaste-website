@@ -11,7 +11,7 @@
 }
 
 .card-call h1, .card-call h2 {
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
 }
 
 /* --- Card vertical / horizontale (carracteristiques communes aux deux cartes) --- */
@@ -29,6 +29,11 @@
   margin: 0;
 }
 
+.background-white {
+  overflow: hidden;
+  background: white;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+}
 /* --- Card verticale --- */
 .card-verti img {
   height: 200px;
@@ -43,6 +48,7 @@
 .card-hori {
   display: flex;
   align-items: center;
+  margin-bottom: 16px;
 }
 
 .card-hori .img-large {
@@ -55,7 +61,7 @@
 }
 
 .card-hori .card-hori-infos {
-  padding: 30px;
+  padding: 16px;
 }
 
 /* --- cards grid --- */
@@ -106,5 +112,8 @@
   }
   .cards {
     grid-template-columns: 1fr;
+  }
+  .cards-small {
+    grid-template-columns: 1fr 1fr;
   }
 }

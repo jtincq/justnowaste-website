@@ -1,0 +1,14 @@
+reduce:
+  titre: Réduire
+  description: Eviter tout ce qui n'est pas indispensable au bon déroulement de la manifestation.
+  picture: pictures/reduce.jpg
+
+reuse:
+  titre: Réutiliser
+  description: Favoriser la réutilisation et le réemploi pour l'ensemble du matériel nécéssaire.
+  picture: pictures/reusablecup.jpg
+
+recycle:
+  titre: Recycler
+  description: "Pour tout ce qui ne peut être ni réduit, ni réutilisé : privilégier les matières recyclable et compostables et assurer leur valorisation en fin de vie."
+  picture: pictures/bin.jpg
