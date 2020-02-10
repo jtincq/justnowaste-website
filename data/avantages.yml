@@ -1,20 +1,25 @@
 env:
-  description: Protection de l'environnement
-  icon: <i class="fas fa-broom"></i>
-
-image:
-  description: Image de la manifestation
-  icon: <i class="fas fa-broom"></i>
+  titre: Ecologie
+  description: Préservez les ressources et protégez l'environnement des déchets.
+  icon: <i class="fas fa-leaf"></i>
 
 satisfaction:
-  description: Satisfaction des visiteurs et des collaborateurs
-  icon: <i class="fas fa-broom"></i>
+  titre: Satisfaction
+  description: Sucitez la satisfaction des visiteurs et des collaborateurs.
+  icon: <i class="fas fa-thumbs-up"></i>
 
 proprete:
-  description: "Propreté du site"
+  titre: Propreté
+  description: Maintenez votre site propre évitant les déchets qui pourraient finir au sol.
   icon: <i class="fas fa-broom"></i>
 
 economies:
-  description: "Economies financières (achat de matériel, nétoyage et traitement des déchets)"
-  icon: <i class="fas fa-broom"></i>
+  titre: Economies
+  description: Economisez sur l'achat de matériel, les frais de nétoyage et le traitement des déchets.
+  icon: <i class="fas fa-dollar-sign"></i>
+
+image:
+  titre: Image
+  description: Montrez votre engagement et renvoyez une image positive de votre manifestation.
+  icon: <i class="fas fa-star"></i>
 
