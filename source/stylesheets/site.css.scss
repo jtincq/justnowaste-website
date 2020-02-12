@@ -14,6 +14,7 @@
 @import "components/ruban.scss";
 @import "components/icon.scss";
 @import "components/bullet.scss";
+@import "components/video.scss";
 
 
 /* --- External Libraries --- */
@@ -35,6 +36,10 @@ body {
   padding-bottom: 30px;
 }
 
+.margin-bottom {
+  margin-bottom : 40px;
+}
+
 .main-container {
   width: 95%;
   max-width: 1200px;
@@ -45,7 +50,6 @@ body {
 h1, h2, h3, h4 {
   font-family: $headers-font;
   font-weight: bolder;
-  margin-bottom: 1rem;
 }
 
 h1 {
@@ -94,5 +98,8 @@ ul {
   h3 {
     font-size: 22px;
     text-align: center;
+  }
+  .display-none {
+  display: none;
   }
 }

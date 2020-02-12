@@ -33,7 +33,42 @@ banner_gradient: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.3)),
   </div>
 </div>
 
-<div class="ruban ruban-yellow-oblic-left">
+<div class="ruban ruban-yellow-left margin-bottom">
+  <div class="main-container">
+    <h2 class="padding-bottom">Exemple de réussite</h2>
+    <div class="card-hori background-white">
+      <div class="img-large">
+          <iframe class=" video-jnw img-large" src="https://www.youtube.com/embed/sNjZCagQ988"></iframe>
+      </div>
+      <div class="card-hori-infos">
+        <h3><%= data.references.fdlt.title %></h3>
+        <p class="padding-bottom"><%= data.references.fdlt.description %></p>
+        <%= link_to "En savoir plus", "#", :class => 'btn-yellow'%>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="main-container">
+  <div class="card-hori card-hori-right margin-bottom">
+    <div class="card-hori-infos">
+      <h2 class="padding-bottom">L'offre Just No Waste</h2>
+      <p>Just No Waste vous accompagne dans la définition et la mise en place d'une démarche de réduction des déchets adaptée à vos besoins et aux spécificités de votre ou vos évènement.s :</p>
+      <ul class="padding-bottom">
+        <li><p><i class="fas fa-caret-right bullet"></i>Diagnostic déchets</p></li>
+        <li><p><i class="fas fa-caret-right bullet"></i>Plan d'actions</p></li>
+        <li><p><i class="fas fa-caret-right bullet"></i>Mise en oeuvre</p></li>
+        <li><p><i class="fas fa-caret-right bullet"></i>Formations</p></li>
+      </ul>
+      <%= link_to "En savoir plus", "/prestations.html", :class => 'btn-yellow'%>
+    </div>
+    <div class="img-large display-none">
+      <%= image_tag "pictures/diagnostic-jnw.jpg", :class => 'img-large' %>
+    </div>
+  </div>
+</div>
+
+<div class="ruban ruban-yellow-oblic-left margin-bottom">
   <div class="main-container">
     <h2 class="padding-bottom">Les 3 piliers de la démarche No Waste</h2>
     <% data.piliers.each do |f, pilier| %>
@@ -47,24 +82,6 @@ banner_gradient: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.3)),
         </div>
       </div>
     <% end %>
-  </div>
-</div>
-
-<div class="main-container">
-  <div class="card-hori">
-    <div class="card-hori-infos">
-      <h3>L'offre Just No Waste</h3>
-      <p>Just No Waste vous accompagne dans la définition et la mise en place d'une démarche de réduction des déchets adaptée à vos besoins et aux spécificités de votre ou vos évènement.s :</p>
-      <ul>
-        <li><p><i class="fas fa-caret-right bullet"></i>Diagnostic déchets et plans d'actions</p></li>
-        <li><p><i class="fas fa-caret-right bullet"></i>Mise en oeuvre</p></li>
-        <li><p><i class="fas fa-caret-right bullet"></i>Formations</p></li>
-      </ul>
-      <%= link_to "En savoir plus", "/prestations.html", :class => 'btn-yellow'%>
-    </div>
-    <div class="img-large">
-      <%= image_tag "pictures/diagnostic-jnw.jpg", :class => 'img-large' %>
-    </div>
   </div>
 </div>
 
