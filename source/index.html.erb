@@ -8,10 +8,7 @@ banner_layout: content-center
 banner_gradient: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.3)),
 ---
 <div class="main-container">
-  <div class="card-call text-center">
-    <h2>Parlez-moi de votre évènement</h2>
-    <%= mail_to 'info@justnowaste.ch', "Contacter", class: "btn-yellow"%>
-  </div>
+  <%= partial "layouts/partials/card-call" %>
 </div>
 
 <div class="main-container padding-bottom">
