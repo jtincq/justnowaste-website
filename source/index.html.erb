@@ -49,7 +49,9 @@ banner_gradient: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.3)),
       <div class="card-hori-infos">
         <h3><%= data.references.fdlt.title %></h3>
         <p class="padding-bottom"><%= data.references.fdlt.description %></p>
-        <%= link_to "En savoir plus", "#", :class => 'btn-yellow'%>
+        <button type="button" class="btn-yellow" data-toggle="modal" data-target="#formCallModal">
+          En savoir plus
+        </button>
       </div>
     </div>
   </div>

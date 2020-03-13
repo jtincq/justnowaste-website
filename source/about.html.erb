@@ -3,9 +3,42 @@ id: about
 title: Just No Waste - A propos
 banner_picture:  banner-jti.jpg
 banner_title: Justine Tincq
-banner_text: Experte en réduction des déchets dans l'évènementiel
+banner_text: Ingénieure et consultante en planification d'évènements durables.
 banner_layout: content-left
+banner_margin : margin-bottom
 ---
 
-<h1 class="main-container text-center">page about</h1>
+<div class="main-container padding-bottom">
+  <div class="card-hori">
+    <div>
+      <h2 class="padding-bottom">Mission et valeurs</h2>
+      <p><span>J'adore les évènements :</span> leur effervescence, l'energie qu'ils dégagent, les interactions qu'ils créent...et j'en suis persuadée : il est tout à fait possible d'organiser un évènement attractif tout en réduisant (presque) à zéro les déchets et le gaspillage. Aujourd'hui, je mets toute mon energie et mon expérience au service ce cette cause qui me tient à coeur : la réduction des déchets dans les manifestations. <span>La mission de Just No Waste : faire évoluer durablement les pratiques dans le secteur de l'évènementiel, vers moins de déchets et de gaspillage.</span></p>
+    </div>
+  </div>
+</div>
+
+<div class="ruban ruban-blue-left margin-bottom">
+  <div class="main-container">
+    <div class="card-hori background-white">
+      <div class="img-large">
+          <%= image_tag "pictures/diagnostic-jnw.jpg", :class => 'img-large' %>
+      </div>
+      <div class="card-hori-infos">
+        <h2 class="padding-bottom">Just No Waste</h2>
+        <p>
+          Just No Waste est une entreprise individuelle, née en 2019 de l'envie d'agir concrêtement et sur le terrain pour réduire les déchets dans le secteur de l'évènementiel, en Suisse et au delà.
+        </p>
+        <p>
+          La première mission de Just No Waste fût le Festival de la Terre à Lausanne en juin 2019. La démarche "No Waste" mise en place dans ce festival a constitué une véritable "preuve du concept" : un évènement festif générant très peu de déchets est possible avec la mise en place de mesures volontaristes et créatives.
+        </p>
+        <!-- Button trigger modal -->
+        <button type="button" class="btn-yellow" data-toggle="modal" data-target="#formCallModal">
+          En savoir plus
+        </button>
+        <!-- Modal -->
+        <%= partial "layouts/partials/form-call-modal" %>
+      </div>
+    </div>
+  </div>
+</div>
 
