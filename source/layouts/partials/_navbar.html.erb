@@ -11,18 +11,21 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav mr-auto">
         <!-- Methode ruby qui ajoute la classe active si la page concernée est active -->
+        <li class="nav-item <%=current_page.data.id == 'home' ? 'active active-jnw' : ''%>">
+          <%= link_to "ACCUEIL", "/index.html", class: "nav-link" %>
+        </li>
         <li class="nav-item <%=current_page.data.id == 'about' ? 'active active-jnw' : ''%>">
           <%= link_to "A PROPOS", "/about.html", class: "nav-link" %>
         </li>
         <li class="nav-item <%=current_page.data.id == 'prestations' ? 'active active-jnw' : ''%>">
           <%= link_to "PRESTATIONS", "/prestations.html", class: "nav-link" %>
         </li>
-        <li class="nav-item <%=current_page.data.id == 'ressources' ? 'active active-jnw' : ''%>">
+        <!-- <li class="nav-item <%=current_page.data.id == 'ressources' ? 'active active-jnw' : ''%>">
           <%= link_to "RESSOURCES", "/ressources.html", class: "nav-link" %>
         </li>
         <li class="nav-item <%=current_page.data.id == 'blog' ? 'active active-jnw' : ''%>">
           <%= link_to "BLOG", "#", class: "nav-link" %>
-        </li>
+        </li> -->
         <li class="nav-item <%=current_page.data.id == 'contact' ? 'active active-jnw' : ''%>">
           <%= link_to "CONTACT", "/contact.html", class: "nav-link" %>
         </li>
@@ -30,5 +33,3 @@
     </div>
   </div>
 </div>
-
-
