@@ -23,11 +23,22 @@
 @import "bootstrap";
 
 /* --- Website main CSS --- */
+* {
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+html {
+  height: 100%;
+}
 body {
   background-color: $light-gray;
   color: $black;
   margin: 0;
+  padding: 0;
+  padding-bottom: 180px;
   font-family: $body-font;
+  min-height: 100%;
+  position: relative;
 }
 .text-center {
   text-align: center;
