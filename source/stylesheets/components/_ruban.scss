@@ -3,6 +3,10 @@
 }
 
 /* --- ruban yellow --- */
+.ruban-yellow {
+  background: $yellow;
+}
+
 .ruban-yellow-left {
   background: linear-gradient(90deg, $yellow 40%, $light-gray 40%);
 }
@@ -17,12 +21,13 @@
 
 .ruban-yellow-oblic-right {
   background: linear-gradient(110deg, $light-gray 60%, $yellow 60%);
-  div {
-    background: white;
-  }
 }
 
 /* --- ruban blue --- */
+.ruban-blue {
+  background: $blue;
+}
+
 .ruban-blue-left {
   background: linear-gradient(90deg, $blue 40%, $light-gray 40%);
 }
