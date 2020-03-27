@@ -4,21 +4,24 @@
     <div class="modal-content">
       <div class="modal-header">
         <h5 class="modal-title" id="formCallModalLabel">
-          Démarche No Waste : l'exemple du festival de la Terre
+          Démarche No Waste : l'exemple du Festival de la Terre
         </h5>
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
       </div>
       <div class="modal-body">
-        <form id="formCall">
+        <!-- Posting the form results on formspree -->
+        <form id="formCall" action="https://formspree.io/xjvoeqaa" method="POST">
           <div class="form-group">
-            <input type="email" name="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="Email" required>
+            <input type="email" name="email" class="form-control" aria-describedby="emailHelp" placeholder="Email *" required>
           </div>
           <div class="form-group">
-            <input type="text" name="organization" class="form-control" id="organization" placeholder="Evènement ou organisation" required >
+            <input type="text" name="organization" class="form-control" placeholder="Evènement ou organisation *" required >
           </div>
-          <button type="submit" class="btn-blue" id="form-submit">Recevoir gratuitement la conférence en video</button>
+          <div class="text-center">
+            <button type="submit" class="btn-blue" id="form-submit">Recevoir la conférence en video</button>
+          </div>
         </form>
       </div>
     </div>
