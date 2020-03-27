@@ -7,6 +7,7 @@ banner_text: Just No Waste aide les organisateurs d'évènements à réduire sim
 banner_layout: content-home
 banner_gradient: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.2)),
 ---
+
 <div class="main-container">
   <div class="card-call text-center">
     <h2>Découvrez les clefs de la démarche No Waste</h2>
@@ -15,7 +16,6 @@ banner_gradient: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.2)),
       Recevoir la video
     </button>
   </div>
-
   <!-- Modal -->
   <%= partial "layouts/partials/form-call-modal" %>
 </div>
@@ -73,23 +73,6 @@ banner_gradient: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.2)),
     <div class="img-large display-none">
       <%= image_tag "pictures/diagnostic-jnw.jpg", :class => 'img-large' %>
     </div>
-  </div>
-</div>
-
-<div class="ruban ruban-yellow-oblic-left margin-bottom">
-  <div class="main-container">
-    <h2 class="padding-bottom">Les 3 piliers de la démarche No Waste</h2>
-    <% data.piliers.each do |f, pilier| %>
-      <div class="card-hori background-white">
-        <div>
-          <%= image_tag pilier.picture %>
-        </div>
-        <div class="card-hori-infos">
-          <h3><%= pilier.titre %></h3>
-          <p><%= pilier.description %></p>
-        </div>
-      </div>
-    <% end %>
   </div>
 </div>
 
