@@ -27,3 +27,11 @@
 .footer-copyright {
   padding-top: 15px;
 }
+
+/* --- Responsive design --- */
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .footer {
+    text-align: center;
+  }
+}
