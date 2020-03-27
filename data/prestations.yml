@@ -1,0 +1,14 @@
+conseil:
+  titre: Conseil
+  description: Diagnostic de vos évènements et établissement de plans d'actions "clefs en main" adaptés à votre situation et vos besoins.
+  picture: pictures/diagnostic.jpg
+
+mise_en_oeuvre:
+  titre: Mise en oeuvre
+  description: Mise en place des solutions recommandées pour vous, sur le terrain, et en collaboration avec votre équipe.
+  picture: pictures/bar.jpg
+
+formations:
+  titre: Conférences et formations
+  description: Conférences et formations sur la mise en place de démarches "No Waste" dans l'évènementiel.
+  picture: pictures/conference.jpg
