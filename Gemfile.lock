@@ -35,7 +35,7 @@ GEM
       coffee-script-source
       execjs
     coffee-script-source (1.12.2)
-    concurrent-ruby (1.1.5)
+    concurrent-ruby (1.1.6)
     contracts (0.13.0)
     crass (1.0.6)
     dotenv (2.7.5)
@@ -104,7 +104,7 @@ GEM
       net-sftp
       ptools
     mini_portile2 (2.4.0)
-    minitest (5.13.0)
+    minitest (5.14.0)
     net-sftp (2.1.2)
       net-ssh (>= 2.6.5)
     net-ssh (5.2.0)
@@ -178,6 +178,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  actionview
   bootstrap (~> 4.3.1)
   font-awesome-sass (~> 4.2.0)
   jquery-middleman
