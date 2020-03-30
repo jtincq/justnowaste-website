@@ -15,11 +15,11 @@ proprete:
 
 satisfaction:
   titre: Satisfaction
-  description: Sucitez la satisfaction des visiteurs et des collaborateurs.
+  description: Suscitez la satisfaction des visiteurs et des collaborateurs.
   icon: <i class="fas fa-thumbs-up"></i>
 
 economies:
   titre: Economies
-  description: Economisez sur l'achat de matériel, les frais de nétoyage et le traitement des déchets.
+  description: Economisez sur l'achat de matériel, les frais de néttoyage et le traitement des déchets.
   icon: <i class="fas fa-dollar-sign"></i>
 
