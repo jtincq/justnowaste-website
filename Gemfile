@@ -18,7 +18,7 @@ gem 'nokogiri', '>= 1.10.8'
 gem "actionview"
 # # Fix critical github warning
 # gem 'actionview', '>= 5.0.7.2'
-gem 'middleman-google-analytics'
+gem 'middleman-google-analytics', '~> 3.0'
 
 # # (sprokets semble faire bugger les components)
 # gem 'middleman-sprockets'
