@@ -45,6 +45,11 @@ page '/*.txt', layout: false
   # activate :minify_javascript
 # end
 
+# Google Analytics tracking
+activate :google_analytics do |ga|
+ga.tracking_id = 'G-1Y6KSWXM5S'
+end
+
 # Middleman-deploy
 activate :deploy do |deploy|
   deploy.build_before = true
