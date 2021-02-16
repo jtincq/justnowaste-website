@@ -47,7 +47,7 @@ page '/*.txt', layout: false
 
 # Google Analytics tracking
 activate :google_analytics do |ga|
-ga.tracking_id = 'G-1Y6KSWXM5S'
+ga.tracking_id = 'UA-189824912-1'
 end
 
 # Middleman-deploy
