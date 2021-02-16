@@ -11,12 +11,12 @@ gem 'sass'
 # gem 'wdm', '~> 0.1', platforms: [:mswin, :mingw]
 
 # Assets
+gem 'actionview'
 gem 'bootstrap', '~> 4.3.1'
 gem 'font-awesome-sass', '~> 4.2.0'
 gem 'jquery-middleman'
-gem 'nokogiri', '>= 1.10.8'
-gem "actionview"
 gem 'middleman-google-analytics', '~> 3.0'
+gem 'nokogiri', '>= 1.10.8'
 
 # # (sprokets semble faire bugger les components)
 # gem 'middleman-sprockets'
